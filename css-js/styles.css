@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+/* body {
+  background-image: url(../images/background-image/Shapes\ 2.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+} */
+
+.logo-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: auto;
+    transition: transform .7s ease-in-out;
+}
+
+.logo-top:hover {
+  transform: rotate(360deg);
+}
+
+.logo-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 5%;
+    height: auto;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.logo-bottom:hover {
+  transition: 0.9s;
+  transform: rotateY(180deg);
+}
+
+.profile-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  height: auto;
+
+}
+
+main {
+    margin: 5%; /* Use percentage for margin */
+}
+
+nav {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: small;
+    margin: 0;
+    position: absolute;
+    right: 5%;
+    color: #4148FF;
+    z-index: 3;
+}
+
+nav a {
+    color:#4148FF;
+}
+
+h1 {
+    font-size: 8vw; /* Use vw for font size */
+    line-height: 1em; /* Adjust line height as needed */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-decoration: underline 0.5px;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-size: 3vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.floating-image-1 {
+    position: absolute;
+    top: 33%;
+    left: 13%;
+    width: 5%; /* Use percentage for width */
+    height: auto; /* Use percentage for height */
+    z-index: 2; /* Set a higher z-index to overlay the text */
+}
+
+.floating-image-2 {
+    position: absolute;
+    top: 45%;
+    left: 9%;
+    width: 6%; /* Use percentage for width */
+    height: auto; /* Use percentage for height */
+    z-index: 2; /* Set a higher z-index to overlay the text */
+}
+
+.floating-image-3 {
+    position: absolute;
+    top: 82%;
+    left: 25%;
+    width: 2%; /* Use percentage for width */
+    height: auto; /* Use percentage for height */
+    z-index: 2; /* Set a higher z-index to overlay the text */
+}
+
+.floating-image-4 {
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    width: 7%; 
+    height: auto; /* Use percentage for height */
+    z-index: 2; /* Set a higher z-index to overlay the text */
+}
+
+.floating-image-5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  transition: transform .7s ease-in-out;
+}
+
+.floating-image-5:hover {
+  transform: rotate(360deg);
+}
+
+.heading {
+    position: relative; /* Make the text a stacking context */
+    z-index: 1; /* Set a lower z-index than the image */
+}
+
+.subheading {
+    font-family: 'Inter', sans-serif;
+    color: #646464;
+    font-size: 0.7vw;
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    margin-left: 55%;
+    margin-top: 5%;
+}
+
+.aboutme {
+  margin-top: 2%;
+  padding: 2%;
+  padding-left: 50%;
+  width: 50%;
+  font-family: 'Inter', sans-serif;
+}
+
+.project-link {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+  }
+  
+  .page-title {
+	text-align: left;
+	padding-left: 2%;
+  }
+
+  .page-subtitle {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    padding-left: 2%;
+  }
+  
+  .project-list {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-top: 2%;
+	display: flex;
+  }
+
+  /* .project-list.doodles li{
+	flex-basis:1%
+  } */
+
+  .project-title {
+    margin: 0;
+    margin-top: 2%
+  }
+  
+  .project-list li {
+	width: 30%;
+  padding: 1%;
+  }
+
+  .readme {
+	padding-left: 20px;
+  }
+  
+  .project-list a {
+	padding: 0px;
+	padding: 0;
+	display: block;
+	text-decoration: none;
+  }
+  
+  .project-list .title {
+	font-style: bolder;
+	text-decoration: underline;
+  font-family: 'IBM Plex Mono', sans-serif;
+  }
+
+  .project-list .subtitle {
+  font-family: 'IBM Plex Mono', sans-serif;
+	font-size: smaller;
+	font-style: italic;
+  }
+  
+  .project-list .project-meta {
+	margin-top: 1%;
+  }
+  
+  .project-list img {
+	width: 100%;
+	display: block;
+  }
+  
+  .doodles-list {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	text-align: center;
+	margin-top: 50px;
+	justify-content: flex-start;
+	display: flex;
+  }
+
+  .doodles-list li {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0 0.25%;
+	flex-basis: 11%;
+  }
+
+  
+  
