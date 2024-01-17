@@ -48,6 +48,11 @@ main {
     margin: 5%; /* Use percentage for margin */
 }
 
+a, a:visited  {
+  color:#4148FF;
+}
+
+
 nav {
     font-family: 'IBM Plex Mono', sans-serif;
     font-size: small;
@@ -76,6 +81,12 @@ h2 {
     font-family: 'Inter', sans-serif;
 }
 
+h3 {
+  font-size: 2vw;
+  font-family: 'Inter', sans-serif;
+  margin-top: 0.75%;
+  margin-bottom: 0.75%;
+}
 .container {
     position: relative;
 }
@@ -141,7 +152,7 @@ h2 {
 
 .description {
     font-family: 'Inter', sans-serif;
-    font-size: larger;
+    font-size: medium;
     margin-left: 55%;
     margin-top: 5%;
 }
@@ -175,6 +186,25 @@ h2 {
     font-family: 'Inter', sans-serif;
     text-align: left;
     padding-left: 2%;
+  }
+
+  .page-subtitle-2 {
+    font-family: 'IBM Plex Mono', sans-serif;
+    text-align: left;
+    padding-left: 2%;
+    color: #4148FF
+  }
+
+  .page-image img {
+    align-items: center;
+    width: 35%;
+    height: auto;
+  }
+
+  .page-description {
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    margin-left: 55%;
   }
   
   .project-list {
