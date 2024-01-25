@@ -76,13 +76,21 @@ nav a {
     margin-bottom: 2%;
 }
 
+.imjanet {
+    font-size: 7vw; /* Use vw for font size */
+    line-height: 1em; /* Adjust line height as needed */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
 h1 {
   font-size: 7vw; /* Use vw for font size */
   line-height: 1em; /* Adjust line height as needed */
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   margin-bottom: 2%;
-  text-align: center;
 }
 
 h2 {
