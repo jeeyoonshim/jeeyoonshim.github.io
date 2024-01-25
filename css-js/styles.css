@@ -67,13 +67,22 @@ nav a {
     color:#4148FF;
 }
 
-h1 {
+.heading {
     font-size: 8vw; /* Use vw for font size */
     line-height: 1em; /* Adjust line height as needed */
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     text-decoration: underline 0.5px;
     margin-bottom: 2%;
+}
+
+h1 {
+  font-size: 7vw; /* Use vw for font size */
+  line-height: 1em; /* Adjust line height as needed */
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  margin-bottom: 2%;
+  text-align: center;
 }
 
 h2 {
@@ -137,6 +146,15 @@ h3 {
 
 .floating-image-5:hover {
   transform: rotate(360deg);
+}
+
+.floating-image-6 {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 70%;
+  height: auto;
+  z-index: -1;
 }
 
 .heading {
@@ -229,7 +247,7 @@ h3 {
   }
   
   .project-list li {
-	width: 31%;
+	width: 23%; /* change to 31% if there isn't enough projects/thumbnails */
   padding: 1%;
   }
 
