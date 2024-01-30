@@ -158,9 +158,9 @@ h3 {
 
 .floating-image-6 {
   position: absolute;
-  top: 40%;
-  left: 10%;
-  width: 70%;
+  top: 60%;
+  left: 5%;
+  width: 60%;
   height: auto;
   z-index: -1;
 }
