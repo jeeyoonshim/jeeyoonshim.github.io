@@ -50,6 +50,7 @@ main {
 
 a, a:visited  {
   color:#4148FF;
+  font-family: 'IBM Plex Mono', sans-serif;
 }
 
 
@@ -82,7 +83,8 @@ nav a {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     margin-bottom: 2%;
-    text-align: center;
+    text-align: left;
+    padding-left: 1%;
 }
 
 h1 {
@@ -104,6 +106,7 @@ h3 {
   margin-top: 0.75%;
   margin-bottom: 0.75%;
 }
+
 .container {
     position: relative;
 }
@@ -183,11 +186,20 @@ h3 {
     margin-top: 5%;
 }
 
-.aboutme {
-  margin-top: 2%;
+.actually {
+  margin-top: 5%;
   padding: 2%;
-  padding-left: 50%;
-  width: 50%;
+  padding-left: 1%;
+  width: 45%;
+  font-family: 'Inter', sans-serif;
+  text-align: right;
+}
+
+.aboutme {
+  margin-top: 5%;
+  padding: 2%;
+  padding-left: 55%;
+  width: 45%;
   font-family: 'Inter', sans-serif;
 }
 
@@ -222,15 +234,23 @@ h3 {
   }
 
   .page-image img {
-    align-items: center;
+    float: left;
     width: 35%;
     height: auto;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: solid 0.5px #4148FF;
   }
 
   .page-description {
     font-family: 'Inter', sans-serif;
     font-size: medium;
     margin-left: 55%;
+    margin-top: 3%;
+  }
+
+  strong {
+    color: #4148FF;
   }
   
   .project-list {
@@ -289,6 +309,7 @@ h3 {
   .project-list img {
 	width: 100%;
 	display: block;
+  border: solid 0.5px #4148FF;
   }
   
   .doodles-list {
@@ -304,6 +325,10 @@ h3 {
 	margin-top: 50px;
 	justify-content: flex-start;
 	display: flex;
+  }
+
+  .doodles-list img {
+    border: solid 0.5px #4148FF;
   }
 
   .doodles-list li {
